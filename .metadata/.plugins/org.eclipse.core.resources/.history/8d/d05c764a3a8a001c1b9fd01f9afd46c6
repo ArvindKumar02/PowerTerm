@@ -1,0 +1,30 @@
+
+@tag
+Feature: Automate PowerTerm
+  I Want to Automate the PowerTerm 
+
+  @tag1
+  Scenario: Application Launch
+    Given User Launches the Application
+    When user Enters the Username Field
+    And User Enters the Password Field
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @tag50
+  Scenario: Application Launch
+    Given I want to write a step with precondition
+    And some other precondition
+    When I complete action
+    And some other action
+    And yet another action
+    Then I validate the outcomes
+    And check more outcomes
+

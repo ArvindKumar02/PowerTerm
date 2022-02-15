@@ -1,0 +1,20 @@
+package com.StepDefinition;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+import io.appium.java_client.windows.WindowsDriver;
+
+public class Step_Definition {
+
+	public static WindowsDriver driver;
+
+//	@Given("^user Launches the Application$")
+//	public void user_Launches_the_Application() throws Throwable {
+//		Thread.sleep(1000);
+//	}
+//
+//	@When("^user clicks close to close the application$")
+//	public void user_clicks_close_to_close_the_application() throws Throwable {
+//		driver.findElementByName("Close").click();
+//	}
+}

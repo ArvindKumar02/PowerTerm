@@ -1,0 +1,45 @@
+package StepDefinition;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class PowerTerm1 {
+	
+	@Given("user launchs Application")
+	public void user_launchs_application() {
+	   
+	   
+	}
+
+	@When("user enters KMBL and KOTAK")
+	public void user_enters_kmbl_and_kotak() {
+	    
+	    
+	}
+
+	@Then("user is navigated to Working Page")
+	public void user_is_navigated_to_working_page() {
+	    
+	    
+	}
+
+	@Given("user closess the connect Window")
+	public void user_closess_the_connect_window() {
+	   
+	    
+	}
+
+	@Given("user is navigated to working Space")
+	public void user_is_navigated_to_working_space() {
+	    
+	    
+	}
+
+	@Then("user closes the Application")
+	public void user_closes_the_application() {
+	   
+	    
+	}
+
+}

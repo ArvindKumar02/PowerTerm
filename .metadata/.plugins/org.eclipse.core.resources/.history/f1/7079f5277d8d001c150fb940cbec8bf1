@@ -1,0 +1,57 @@
+package StepDefinition;
+
+import com.PowerTerm.Runner_Class;
+
+import io.appium.java_client.windows.WindowsDriver;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import runner.Test_Execution;
+
+
+
+public class PowerTerm1 {
+	
+	public static WindowsDriver driver = Test_Execution.driver;
+	
+	@Given("user launchs Application")
+	public void user_launchs_application() {
+	   
+		System.out.println("Launch Application");
+	   
+	}
+
+	@When("user enters KMBL and KOTAK")
+	public void user_enters_kmbl_and_kotak() {
+	    
+	    System.out.println("Username and Password Entered");
+	}
+
+	@Then("user is navigated to Working Page")
+	public void user_is_navigated_to_working_page() {
+	    
+	    System.out.println("Working Page");
+	}
+
+	@Given("user closess the connect Window")
+	public void user_closess_the_connect_window() {
+	   
+		System.out.println("Closed the Connect Access");
+	    
+	}
+
+	@Given("user is navigated to working Space")
+	public void user_is_navigated_to_working_space() {
+	    
+		System.out.println("Entered Working Spacer");
+	    
+	}
+
+	@Then("user closes the Application")
+	public void user_closes_the_application() {
+	   
+		System.out.println("Application Closed");
+	    
+	}
+
+}

@@ -1,0 +1,22 @@
+
+@tag
+Feature: Automate PowerTerm
+  I Want to Automate the PowerTerm 
+
+  @tag1
+  Scenario: Application Launch
+    Given User Launches the Application
+    When user Enters the Username Field
+    And User Enters the Password Field
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+

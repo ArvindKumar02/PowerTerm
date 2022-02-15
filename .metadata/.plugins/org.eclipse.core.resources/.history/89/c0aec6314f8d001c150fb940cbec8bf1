@@ -1,0 +1,7 @@
+Feature: Feature to Automate PowerTerm
+
+  @PT1
+  Scenario: Open PowerTerm Tool
+    Given user launchs Application
+    When user clicks on Close
+    Then user is navigated to Working Page

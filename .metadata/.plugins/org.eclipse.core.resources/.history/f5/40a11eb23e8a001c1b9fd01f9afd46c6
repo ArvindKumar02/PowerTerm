@@ -1,0 +1,33 @@
+package com.StepDefinition;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class Step_Definition {
+	
+	@Given("^User Launches the Application$")
+	public void user_Launches_the_Application() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^user clicks close to close the application$")
+	public void user_clicks_close_to_close_the_application() throws Throwable {
+		driver.findElementByName("Close").click();
+	    throw new PendingException();
+	}
+
+	@When("^user Enters the Username Field$")
+	public void user_Enters_the_Username_Field() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^User Enters the Password Field$")
+	public void user_Enters_the_Password_Field() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+
+}
+}

@@ -1,0 +1,32 @@
+package com.StepDefinition;
+
+import com.Base_Class.Base_Class;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.When;
+
+public class Step_Definition extends Base_Class  {
+	
+	@Given("^User Launches the Application$")
+	public void user_Launches_the_Application() throws Throwable {
+	    
+	    
+	}
+
+	@When("^user clicks close to close the application$")
+	public void user_clicks_close_to_close_the_application() throws Throwable {
+		
+	   
+	}
+
+	@When("^user Enters the Username Field$")
+	public void user_Enters_the_Username_Field() throws Throwable {
+	   
+	}
+
+	@When("^User Enters the Password Field$")
+	public void user_Enters_the_Password_Field() throws Throwable {
+	   
+
+}
+}
